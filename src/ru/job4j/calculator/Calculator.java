@@ -15,5 +15,27 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        // 1 выражение - c потерей
+//        long l = 129;
+//        byte b = (byte) l;
+//        System.out.println(b);
+//// 2 выражение - c потерей
+//        float f = 12358.7f;
+//        int i = 45981;
+//        short rsl = (short) (f + i);
+//        System.out.println(rsl);
+//// 3 выражение - без потери
+//        char c = 45000;
+//        float i = c;
+//        System.out.println(i);
+//// 4 выражение - c потерей
+//        double d = 121.19;
+//        byte b = (byte) d;
+//        System.out.println(b);
+//// 5 выражение - без потери
+//        short s = 1500;
+//        char c = (char) s;
+//        double d = c;
+//        System.out.println(d);
     }
 }
