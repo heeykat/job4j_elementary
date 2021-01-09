@@ -15,7 +15,7 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumEvenNumbersFrom2To8ThenThirty() {
+    public void whenSumEvenNumbersFrom2To8Then20() {
         int rsl = Counter.sumByEven(2, 8);
         int expected = 20;
         assertThat(rsl, is(expected));
