@@ -3,7 +3,6 @@ package ru.job4j;
 public class Echo {
 
     public static void main(String[] args) {
-
         System.out.println(Echo.checkGame(0.2, 50, 9));
     }
 
