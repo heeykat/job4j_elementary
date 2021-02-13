@@ -8,19 +8,29 @@ public class MaxTest {
 
     @Test
     public void whenMax4To5Then5() {
-        int result = Max.max(4, 5);
+        Max object = new Max();
+        int result = object.max(4, 5);
         assertThat(result, is(5));
     }
 
     @Test
-    public void whenMax6To3Then3() {
-        int result = Max.max(6, 3);
+    public void whenMax6To3Then6() {
+        Max object = new Max();
+        int result = object.max(6, 3);
         assertThat(result, is(6));
     }
 
     @Test
     public void whenMax2To2Then2() {
-        int result = Max.max(2, 2);
+        Max object = new Max();
+        int result = object.max(2, 2);
         assertThat(result, is(2));
+    }
+
+    @Test
+    public void whenMax1To2To3Then3() {
+        Max object = new Max();
+        int result = object.max(2, 2,3);
+        assertThat(result, is(3));
     }
 }
