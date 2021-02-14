@@ -33,4 +33,11 @@ public class MaxTest {
         int result = object.max(2, 2,3);
         assertThat(result, is(3));
     }
+
+    @Test
+    public void whenMax1To2To3To4Then4() {
+        Max object = new Max();
+        int result = object.max(1, 2,3, 4);
+        assertThat(result, is(4));
+    }
 }

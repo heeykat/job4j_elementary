@@ -7,8 +7,11 @@ public class Max {
     }
 
     public int max (int first, int second, int third) {
-        int tmp = max(first, second);
-        return tmp > third ? tmp : third;
+        return max(max(first, second), third);
+    }
+
+    public int max (int first, int second, int third, int fourth) {
+        return max(max(first, second, third), fourth);
     }
 
 //    public static void main(String[] args) {
